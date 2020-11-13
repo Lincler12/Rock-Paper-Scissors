@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RockPaperScissors</title>
 </head>
+
 <body>
-    
+    <div class="content-wrapper">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+        </header>
+        <main>
+            <div id="player-round">Player 1!</div>
+            <div id="btn-container">
+                <div class = "btn-text-container">
+                    <button id="rock-btn" class="btn-styling"><i class="far fa-hand-rock"></i></button>
+                    <p>Rock</p>
+                </div>
+                <div class = "btn-text-container">
+                    <button id="paper-btn" class="btn-styling"><i class="far fa-hand-paper"></i></button>
+                    <p>Paper</p>
+                </div>
+                <div class = "btn-text-container">
+                    <button id="scissors-btn" class="btn-styling"><i class="far fa-hand-scissors"></i></button>
+                    <p>Scissors</p>
+                </div>
+            </div>
+        </main>
+    </div>
     <script src="logic.js"></script>
 </body>
+
 </html>

@@ -80,13 +80,13 @@ function GameRound(playerSelection, computerSelection) {
 }
 
 function Game(){
-    const gameRounds = 5;
-    let counter = 0;
+    const TotalRounds = 5;
+    let round = 0;
     let wins = 0;
     let loses = 0;
     let ties = 0;
-    while(counter < 5){
-        counter++;
+    while(round){
+        round++;
         result = GameRound(PlayerPlay(), ComputerPlay());
         alert(result.string);
         switch(result.winner){

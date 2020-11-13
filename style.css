@@ -1,0 +1,92 @@
+html {
+  font-size: 62.5%;
+  height: 100vh;
+  width: 100vw;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  height: 100%;
+  width: 100%;
+  background: #282822;
+  background: linear-gradient(
+    120deg,
+    rgba(26, 55, 87, 1) 28%,
+    rgba(40, 40, 34, 1) 100%
+  );
+}
+
+div.content-wrapper {
+  height: 75%;
+  width: 90%;
+  max-width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+h1 {
+  color: #7fcaf0;
+  font-size: 4.8rem;
+  padding-bottom: 20rem;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+div#player-round {
+  font-size: 3.6rem;
+  color: #41cac8;
+  padding-bottom: 20rem;
+}
+
+div#btn-container {
+  width: 90%;
+  max-width: 75rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rem;
+}
+
+div.btn-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+div.btn-text-container p {
+  color: #f7e1aa;
+  font-size: 24px;
+}
+
+button.btn-styling {
+  width: 15rem;
+  height: 15rem;
+  font-size: 7rem;
+  border-radius: 10rem;
+  border:none;
+  outline: none;
+  background-color: transparent;
+  color: #e596bc;
+  transition: all 0.2s;
+}
+
+button.btn-styling:hover{
+    transform: scale(1.2);
+    color: #41cac8;
+}
+
+button.btn-styling:active{
+    transform: scale(1.1);
+    filter:brightness(90%);
+}
