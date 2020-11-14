@@ -12,22 +12,29 @@
 </head>
 
 <body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
     <div class="content-wrapper">
-        <header>
-            <h1>Rock Paper Scissors</h1>
-        </header>
         <main>
-            <div id="player-round">Player 1!</div>
+            <div id="round-container">
+                <div class="round-display">
+                    <div id="player-round">Player 1</div>
+                </div>
+                <div class="round-display">
+                    <div id="computer-round">Computer</div>
+                </div>
+            </div>
             <div id="btn-container">
-                <div class = "btn-text-container">
+                <div class="btn-text-container">
                     <button id="rock-btn" class="btn-styling"><i class="far fa-hand-rock"></i></button>
                     <p>Rock</p>
                 </div>
-                <div class = "btn-text-container">
+                <div class="btn-text-container">
                     <button id="paper-btn" class="btn-styling"><i class="far fa-hand-paper"></i></button>
                     <p>Paper</p>
                 </div>
-                <div class = "btn-text-container">
+                <div class="btn-text-container">
                     <button id="scissors-btn" class="btn-styling"><i class="far fa-hand-scissors"></i></button>
                     <p>Scissors</p>
                 </div>
