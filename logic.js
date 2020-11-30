@@ -84,7 +84,7 @@ function Game() {
         if (round === 0) {
             const mainElement = document.getElementsByTagName('MAIN')[0];
             const newDivRoundResultContainer = document.createElement('div');
-            newDivRoundResultContainer.style.cssText = "display:flex; justify-content: space-evenly; width: 40%; padding-bottom: 5rem;";
+            newDivRoundResultContainer.style.cssText = "display:flex; justify-content: space-evenly; width: 40%; padding-bottom: 2.5rem; padding-top: 2.5rem;";
             newDivRoundResultContainer.setAttribute('id', 'round-result-container');
             for (let i = 0; i < TotalRounds; i++) {
                 const newDivRoundResultElement = document.createElement('div');
